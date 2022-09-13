@@ -1,0 +1,29 @@
+body{
+    background-image: url('/time1.jpg');
+    background-size: cover;
+}
+
+.text-center{
+    margin-top: 20px;
+}
+::placeholder{
+    font-size: 30px;
+}
+.div14{
+    font-size: 30px;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    color: grey !important;
+}
+button{
+    font-size: 40px !important;
+}
+@media screen and (max-width: 520px) {
+    body{
+        background-image: url('/time3.jpg');
+        background-size: cover;
+        height: 800px;
+        overflow-y: hidden;
+    }
+}

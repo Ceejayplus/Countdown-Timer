@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTDOWN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="/time2.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="text-center">
+        <input type="text" class="text-center rounded-pill border-0 bg-light fw-bold div14" placeholder="HH" id="hours">
+        <input type="text" class="text-center rounded-pill border-0 bg-light fw-bold div14" placeholder="MM" id="minutes">
+        <input type="text" class="text-center rounded-pill border-0 bg-light fw-bold div14" placeholder="SS" id="seconds"><br>
+        <button class="btn btn-lg btn-light mt-4 fw-bold text-secomdary rounded-pill" onclick="countDown()">Count Down</button>
+        <button class="btn btn-lg btn-light mt-4 fw-bold text-danger rounded-pill" onclick="pauseButton()">PAUSE</button>
+        <button class="btn btn-lg btn-light mt-4 fw-bold text-danger rounded-pill" onclick="resetInput()">RESET</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
