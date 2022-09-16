@@ -27,9 +27,8 @@ const pauseButton = () => {
 }
 
 const resetInput = () => {
-    // location.reload()
-    clearInterval(setTime);
-    seconds.value = 00;
-    minutes.value = 00;
-    hours.value = 00
+  // location.reload()    clearInterval(setTime);
+    seconds.value = 0
+    minutes.value = 0;
+    hours.value = 0
 }
